@@ -1,9 +1,9 @@
 {
-  "enabled": false,
+  "enabled": true,
   "placement": "both",
   "title": "합격책장 프리미엄",
   "description": "광고 없이 스티커와 메모 기능을 사용해보세요",
   "imageUrl": "",
-  "linkUrl": "",
+  "linkUrl": "https://paqim4-coder.github.io/passbookshelf-ads/self_ads.json",
   "buttonText": "자세히 보기"
 }
