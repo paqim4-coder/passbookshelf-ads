@@ -1,5 +1,5 @@
 {
-"enabled": true,
+"enabled": false,
 "timezone": "Asia/Seoul",
 "rotationMode": "weighted_random",
 "campaigns": [
