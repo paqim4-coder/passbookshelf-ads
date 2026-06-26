@@ -1,9 +1,49 @@
 {
-  "enabled": false,
-  "placement": "both",
-  "title": "합격책장 프리미엄",
-  "description": "광고 없이 스티커와 포스트잇 메모 기능을 사용해보세요",
-  "imageUrl": "https://paqim4-coder.github.io/passbookshelf-ads/banner_test.png",
-  "linkUrl": "https://paqim4-coder.github.io/passbookshelf-ads/self_ads.json",
-  "buttonText": "자세히 보기"
+"enabled": true,
+"timezone": "Asia/Seoul",
+"rotationMode": "weighted_random",
+"campaigns": [
+{
+"id": "campaign_test_001",
+"name": "테스트 자체광고 1",
+"advertiserName": "renarena",
+"enabled": true,
+"placement": "both",
+"title": "합격책장 프리미엄",
+"description": "광고 없이 스티커와 포스트잇 메모 기능을 사용해보세요",
+"imageUrl": "https://paqim4-coder.github.io/passbookshelf-ads/banner_test.png",
+"linkUrl": "https://example.com",
+"buttonText": "자세히 보기",
+"startAt": "2026-06-26T00:00:00+09:00",
+"endAt": "2026-12-31T23:59:59+09:00",
+"priority": 10,
+"weight": 1,
+"maxImpressionsPerSession": 0,
+"tracking": {
+"impressionUrl": "",
+"clickUrl": ""
+}
+},
+{
+"id": "campaign_test_002",
+"name": "테스트 자체광고 2",
+"advertiserName": "sample_advertiser",
+"enabled": true,
+"placement": "main_bookshelf_banner",
+"title": "두 번째 테스트 광고",
+"description": "광고주가 여러 명일 때 돌아가며 노출되는지 확인합니다.",
+"imageUrl": "",
+"linkUrl": "https://example.com",
+"buttonText": "확인하기",
+"startAt": "2026-06-26T00:00:00+09:00",
+"endAt": "2026-12-31T23:59:59+09:00",
+"priority": 5,
+"weight": 1,
+"maxImpressionsPerSession": 0,
+"tracking": {
+"impressionUrl": "",
+"clickUrl": ""
+}
+}
+]
 }
